@@ -8,6 +8,6 @@ class User :
 public:
 	User();
 	~User();
-	virtual GamePropObject* getGameObject();
+	virtual GamePropObject* getGameObject(VisitorBase* visitorIn);
 };
 

@@ -8,6 +8,6 @@ class Computer :
 public:
 	Computer();
 	~Computer();
-	virtual GamePropObject* getGameObject();
+	virtual GamePropObject* getGameObject(VisitorBase* visitorIn);
 };
 

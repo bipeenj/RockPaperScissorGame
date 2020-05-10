@@ -159,6 +159,7 @@
     <ClInclude Include="ScanStratergy.h" />
     <ClInclude Include="Stratergy.h" />
     <ClInclude Include="User.h" />
+    <ClInclude Include="VisitorBase.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Computer.cpp" />
@@ -175,6 +176,7 @@
     <ClCompile Include="ScanStratergy.cpp" />
     <ClCompile Include="Stratergy.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="VisitorBase.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

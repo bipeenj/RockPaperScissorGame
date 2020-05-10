@@ -1,6 +1,7 @@
 #pragma once
 class Stratergy;
 class GamePropObject;
+class VisitorBase;
 class Player
 {
 protected:
@@ -10,6 +11,6 @@ protected:
 public:
 	
 	virtual ~Player();
-	virtual GamePropObject* getGameObject() = 0;
+	virtual GamePropObject* getGameObject(VisitorBase* visitorIn) = 0;
 };
 

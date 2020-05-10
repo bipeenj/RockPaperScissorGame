@@ -1,4 +1,5 @@
 #pragma once
+class VisitorBase;
 class GamePropObject
 {
 protected:
@@ -6,6 +7,6 @@ protected:
 public:
 	
 	virtual ~GamePropObject();
-	virtual int GetTypeNumber() = 0;
+	virtual int GetTypeNumber(VisitorBase* visitorIn) = 0;
 };
 
