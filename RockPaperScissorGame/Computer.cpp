@@ -14,5 +14,7 @@ Computer::~Computer()
 
 GamePropObject * Computer::getGameObject(VisitorBase* visitorIn)
 {
-	return m_GameObjectStrat->getGameObject(visitorIn);
+	m_GameObj = m_GameObjectStrat->getGameObject(visitorIn);
+
+	return m_GameObj;
 }

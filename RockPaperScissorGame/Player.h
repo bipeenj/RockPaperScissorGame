@@ -8,6 +8,7 @@ class Player
 protected:
 
 	Stratergy* m_GameObjectStrat = nullptr;
+	GamePropObject* m_GameObj;
 	Player();
 public:
 	
