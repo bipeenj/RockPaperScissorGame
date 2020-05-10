@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "GameObjectPrecedenceVisitor.h"
-
+#include"Paper.h"
+#include"Rock.h"
+#include"Scissor.h"
 
 GameObjectPrecedenceVisitor::GameObjectPrecedenceVisitor()
 {

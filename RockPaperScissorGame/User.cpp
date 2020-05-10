@@ -2,9 +2,10 @@
 #include "User.h"
 #include"ScanStratergy.h"
 #include "VisitorBase.h"
-User::User()
+User::User(std::string nameIn)
 {
 	m_GameObjectStrat = new ScanStratergy;
+	m_Name = nameIn;
 }
 
 

@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 class Stratergy;
 class GamePropObject;
 class VisitorBase;
@@ -12,5 +13,6 @@ public:
 	
 	virtual ~Player();
 	virtual GamePropObject* getGameObject(VisitorBase* visitorIn) = 0;
+	virtual  std::string getName() = 0;
 };
 
