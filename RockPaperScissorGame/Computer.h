@@ -8,5 +8,6 @@ class Computer :
 public:
 	Computer();
 	~Computer();
+	virtual GamePropObject* getGameObject();
 };
 

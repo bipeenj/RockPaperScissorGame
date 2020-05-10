@@ -11,3 +11,8 @@ Computer::Computer()
 Computer::~Computer()
 {
 }
+
+GamePropObject * Computer::getGameObject()
+{
+	return m_GameObjectStrat->getGameObject();
+}

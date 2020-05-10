@@ -11,3 +11,8 @@ User::User()
 User::~User()
 {
 }
+
+GamePropObject * User::getGameObject()
+{
+	return m_GameObjectStrat->getGameObject();;
+}
