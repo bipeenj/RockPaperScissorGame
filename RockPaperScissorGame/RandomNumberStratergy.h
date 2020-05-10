@@ -6,6 +6,6 @@ class RandomNumberStratergy :
 public:
 	RandomNumberStratergy();
 	~RandomNumberStratergy();
-	virtual GamePropObject* getGameObject();
+	virtual GamePropObject* getGameObject(VisitorBase* visitorIn);
 };
 

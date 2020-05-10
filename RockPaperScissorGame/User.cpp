@@ -14,5 +14,5 @@ User::~User()
 
 GamePropObject * User::getGameObject(VisitorBase* visitorIn)
 {
-	return m_GameObjectStrat->getGameObject();;
+	return m_GameObjectStrat->getGameObject(visitorIn);;
 }

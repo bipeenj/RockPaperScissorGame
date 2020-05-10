@@ -11,7 +11,7 @@ RandomNumberStratergy::~RandomNumberStratergy()
 {
 }
 
-GamePropObject * RandomNumberStratergy::getGameObject()
+GamePropObject * RandomNumberStratergy::getGameObject(VisitorBase* visitorIn)
 {
 	return nullptr;
 }

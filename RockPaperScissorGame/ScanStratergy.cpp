@@ -11,7 +11,7 @@ ScanStratergy::~ScanStratergy()
 {
 }
 
-GamePropObject * ScanStratergy::getGameObject()
+GamePropObject * ScanStratergy::getGameObject(VisitorBase* visitorIn)
 {
 	auto msg = "";
 	return nullptr;

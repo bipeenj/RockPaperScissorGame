@@ -6,6 +6,6 @@ class ScanStratergy :
 public:
 	ScanStratergy();
 	~ScanStratergy();
-	virtual GamePropObject* getGameObject();
+	virtual GamePropObject* getGameObject(VisitorBase* visitorIn);
 };
 
