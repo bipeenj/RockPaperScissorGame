@@ -6,5 +6,5 @@
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+    std::cout << "Welcome to game of Rock paper Scissor for 3 players including coputer!\n"; 
 }

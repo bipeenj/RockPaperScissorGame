@@ -153,10 +153,14 @@
   <ItemGroup>
     <ClInclude Include="Computer.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectPrecedenceVisitor.h" />
+    <ClInclude Include="Paper.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="RandomNumberStratergy.h" />
+    <ClInclude Include="Rock.h" />
     <ClInclude Include="ScanStratergy.h" />
+    <ClInclude Include="Scissor.h" />
     <ClInclude Include="Stratergy.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="VisitorBase.h" />
@@ -164,6 +168,8 @@
   <ItemGroup>
     <ClCompile Include="Computer.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectPrecedenceVisitor.cpp" />
+    <ClCompile Include="Paper.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -172,8 +178,10 @@
     </ClCompile>
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="RandomNumberStratergy.cpp" />
+    <ClCompile Include="Rock.cpp" />
     <ClCompile Include="RockPaperScissorGame.cpp" />
     <ClCompile Include="ScanStratergy.cpp" />
+    <ClCompile Include="Scissor.cpp" />
     <ClCompile Include="Stratergy.cpp" />
     <ClCompile Include="User.cpp" />
     <ClCompile Include="VisitorBase.cpp" />
