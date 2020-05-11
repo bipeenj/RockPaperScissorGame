@@ -15,30 +15,16 @@ GameObjectPrecedenceVisitor::~GameObjectPrecedenceVisitor()
 
 int GameObjectPrecedenceVisitor::Visit(Rock * objIn)
 {
-	return 2;
+	return 0;
 }
 
 int GameObjectPrecedenceVisitor::Visit(Paper * objIn)
 {
-	return 3;
+	return 1;
 }
 
 int GameObjectPrecedenceVisitor::Visit(Scissor * objIn)
 {
-	return 1;
+	return 2;
 }
 
-GamePropObject * GameObjectPrecedenceVisitor::Compare(Rock * objIn, Paper * objIn2)
-{
-	return objIn2;
-}
-
-GamePropObject * GameObjectPrecedenceVisitor::Compare(Paper * objIn, Scissor * obj2)
-{
-	return obj2;
-}
-
-GamePropObject * GameObjectPrecedenceVisitor::Compare(Scissor * objIn, Rock * obj2)
-{
-	return obj2;
-}

@@ -15,5 +15,6 @@ public:
 	virtual ~Player();
 	virtual GamePropObject* getGameObject(VisitorBase* visitorIn) = 0;
 	virtual  std::string getName() = 0;
+	virtual GamePropObject*  getProp() {return m_GameObj;}
 };
 
