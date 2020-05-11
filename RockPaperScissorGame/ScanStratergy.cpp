@@ -17,7 +17,7 @@ ScanStratergy::~ScanStratergy()
 
 GamePropObject * ScanStratergy::getGameObject(VisitorBase* visitorIn)
 {
-	std::string msg = "Please input your choice for option ROCK?PAPER?SCISSOR:\n Where: \n Rock is ";
+	std::string msg = visitorIn->getUserMessage();
 	
 	auto rock = new Rock;
 	auto paper = new Paper;
@@ -33,7 +33,7 @@ GamePropObject * ScanStratergy::getGameObject(VisitorBase* visitorIn)
 	msg += "\n Scissor is is:";
 	auto scissorint = visitorIn->Visit(scissor);
 	auto scissorInt = std::to_string(scissorint);
-	msg += scissorInt;
+	msg += scissorInt+"\n";
 	std::cout << msg;
 	std::string userValue;
 	std::cin >> userValue;

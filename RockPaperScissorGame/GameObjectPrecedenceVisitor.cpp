@@ -28,3 +28,8 @@ int GameObjectPrecedenceVisitor::Visit(Scissor * objIn)
 	return 2;
 }
 
+std::string GameObjectPrecedenceVisitor::getUserMessage()
+{
+	return "Please input your choice for option ROCK?PAPER?SCISSOR:\n Where: \n Rock is ";
+}
+

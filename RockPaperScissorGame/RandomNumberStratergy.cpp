@@ -25,8 +25,9 @@ GamePropObject * RandomNumberStratergy::getGameObject(VisitorBase* visitorIn)
 	int paperint = visitorIn->Visit(paper);
 	auto scissor = new Scissor;
 	auto scissorint = visitorIn->Visit(scissor);
+	int max = visitorIn->TotalGameObjectTypes();
 	srand(time(0));
-	int num = rand();
+	int num = rand()% max;
 	GamePropObject* retVal = nullptr;
 	if (rockint == num)
 	{
